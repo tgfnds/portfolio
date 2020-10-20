@@ -1,0 +1,15 @@
+.experience {
+  margin-top: 3rem;
+  margin-inline: 2rem;
+  flex: 1;
+}
+
+.experience__title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #f95959;
+}
+
+.experience__date {
+  color: #facf5a;
+}

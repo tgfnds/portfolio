@@ -1,0 +1,20 @@
+.intro {
+  margin-top: 3rem;
+  margin-inline: 2rem;
+  flex: 1;
+}
+
+.intro__title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #f95959;
+}
+
+.intro > p {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.intro__origin {
+  margin-top: 0.2rem !important;
+}

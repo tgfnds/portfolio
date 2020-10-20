@@ -1,0 +1,27 @@
+.skills {
+  margin-top: 3rem;
+  margin-inline: 2rem;
+  flex: 0 0 50px;
+}
+
+.skills__title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #f95959;
+}
+
+.skills__icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills > p {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.skills p:nth-child(2) {
+  margin-top: 0;
+}
