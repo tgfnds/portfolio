@@ -1,14 +1,12 @@
 import React from "react";
 import styles from "../styles/SvgIcon.module.css";
 
-const SvgIcon = ({ path, height, name, borderColor, borderRadius }) => {
+const SvgIcon = ({ path, height, name, bgColor, borderRadius, animated }) => {
   return (
     <div
-      className={styles.icon}
+      className={animated ? `${styles.icon} ${styles.animated}` : styles.icon}
       style={
-        borderColor
-          ? { "background-color": borderColor, "border-radius": borderRadius }
-          : {}
+        bgColor ? { backgroundColor: bgColor, borderRadius: borderRadius } : {}
       }
     >
       <object data={path} type="image/svg+xml" height={height}>

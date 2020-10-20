@@ -26,12 +26,12 @@
   z-index: 1;
 }
 
-.icon:hover {
+.animated:hover {
   transform: scale(1.25);
   transition: ease-in-out 0.1s;
 }
 
-.icon:hover .icon__tooltip {
+.animated:hover .icon__tooltip {
   visibility: visible;
   transition: ease-in-out;
 
